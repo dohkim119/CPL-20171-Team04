@@ -13,7 +13,7 @@ MPU6050 mpu;
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
  
-//Servo myservo;
+
  
 int val;
 int prevVal;
@@ -27,7 +27,7 @@ void setup()
     mpu.initialize();
     
    // Serial.println(mpu.testConnection() ? "Connected" : "Connection failed");
-    //myservo.attach(9);
+
 
     BTserial.begin(9600); //블루투스 연결 초기화
 }
@@ -50,10 +50,9 @@ void loop()
       }
 
       
-      
-        //myservo.write(val);
+     
         prevVal = val;
     }
  
-    //delay(50);
+
 }
