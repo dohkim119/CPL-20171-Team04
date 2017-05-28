@@ -42,7 +42,7 @@ void loop() {
 */
 #include <SoftwareSerial.h>
 //#include<MsTimer2.h>
-SoftwareSerial BTSerial(2, 3);
+SoftwareSerial BTserial(2, 3);
 
 int LED1 = 12; // LED 연결 핀
 int LED2 = 7;
@@ -67,11 +67,7 @@ void setup()
 
 
 //BTSerial.begin(9600); // 블루투스 연결 초기화
-  //pinMode(LED1, OUTPUT); // LED 연결 핀을 출력으로 설정
- // pinMode(LED2, OUTPUT);
-  //digitalWrite(LED1, LOW); // LED는 꺼진 상태로 시작
- // digitalWrite(LED2, LOW);
-  
+
 }
  
 void loop()
