@@ -1,0 +1,15 @@
+﻿thinkgear_testapp.obj : error LNK2019: _TG_GetVersion 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_GetNewConnectionId 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_SetStreamLog 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_SetDataLog 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_Connect 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_ReadPackets 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_GetValueStatus 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_GetValue 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _MWM15_getFilterType 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _MWM15_setFilterType 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_EnableAutoRead 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_Disconnect 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+thinkgear_testapp.obj : error LNK2019: _TG_FreeConnection 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+..\..\..\..\..\Downloads\Windows-Developer-Tools-3.2\Windows Developer Tools 3.2\Stream SDK for PC\Sample Project\x64\thinkgear_testapp\thinkgear_testapp\thinkgear64.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'X86' 대상 컴퓨터 종류와 충돌합니다.
+c:\users\ei seok\documents\visual studio 2015\Projects\mindwavetest\Debug\mindwavetest.exe : fatal error LNK1120: 13개의 확인할 수 없는 외부 참조입니다.

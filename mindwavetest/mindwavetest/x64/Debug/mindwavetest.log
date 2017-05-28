@@ -1,0 +1,4 @@
+﻿  thinkgear_test.cpp
+c:\users\ei seok\documents\visual studio 2015\projects\mindwavetest\mindwavetest\thinkgear_test.cpp(52): warning C4101: 'input' :참조되지 않은 지역 변수입니다.
+  mindwavetest.vcxproj -> C:\Users\Ei Seok\Documents\Visual Studio 2015\Projects\mindwavetest\x64\Debug\mindwavetest.exe
+  mindwavetest.vcxproj -> C:\Users\Ei Seok\Documents\Visual Studio 2015\Projects\mindwavetest\x64\Debug\mindwavetest.pdb (Full PDB)
