@@ -122,7 +122,7 @@ int main(void) {
 
 					/* Get and print out the new raw value */
 					fprintf(stdout, "%s: attention: %d\n", currTimeStr,	(int)TG_GetValue(connectionId, TG_DATA_ATTENTION));
-					if (50<att)
+					if (60<att)
 						serialComm.sendCommand('F');
 					fflush(stdout);
 
@@ -135,7 +135,7 @@ int main(void) {
 					int med = (int)TG_GetValue(connectionId, TG_DATA_MEDITATION);
 					/* Get and print out the new MEDITATION value */
 					fprintf(stdout, "%s: MEDITATION :  %d\n", currTimeStr, med);
-					if (40 <med)
+					if (60 <med)
 						serialComm.sendCommand('B');
 					fflush(stdout);
 				} /* end "If Packet contained a raw wave value..." */

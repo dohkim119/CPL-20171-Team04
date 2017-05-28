@@ -1,5 +1,9 @@
+#include <SoftwareSerial.h>
 #include <math.h> // (no semicolon)
 #include <Wire.h>
+#include <MsTimer2.h>
+
+SoftwareSerial BTserial(2,3);
 
 /* MPU-6050 sensor */
 #define MPU6050_ACCEL_XOUT_H 0x3B // R
