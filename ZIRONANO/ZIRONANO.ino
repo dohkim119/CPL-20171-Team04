@@ -23,7 +23,7 @@ void setup()
     Wire.begin();
     //Serial.begin(38400);
  
-    //Serial.println("Initialize MPU");
+    Serial.println("Initialize MPU");
     mpu.initialize();
     
    // Serial.println(mpu.testConnection() ? "Connected" : "Connection failed");
