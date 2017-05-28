@@ -7,6 +7,8 @@ boolean state1 = false; // 현재 LED의 상태
 boolean state2 = false;
 
 char c ;
+char ch;
+
 
 void timeOut(){
      pinMode(6, INPUT);
@@ -45,7 +47,7 @@ void loop()
 
  if (BTserial.available()){ // 마스터로부터 데이터 수신
     char ch = BTserial.read();
-   
+   Serial.println(ch);
     switch(ch){ // ‘A’를 수신한 경우 첫 번째 LED 반전
       
             case 'L': //좌
