@@ -44,10 +44,7 @@ void loop() {
 //#include<MsTimer2.h>
 SoftwareSerial BTSerial(2, 3);
 
-int LED1 = 12; // LED 연결 핀
-int LED2 = 7;
-boolean state1 = false; // 현재 LED의 상태
-boolean state2 = false;
+
 
 char c ;
 
@@ -67,10 +64,7 @@ void setup()
 
 
 //BTSerial.begin(9600); // 블루투스 연결 초기화
-  //pinMode(LED1, OUTPUT); // LED 연결 핀을 출력으로 설정
- // pinMode(LED2, OUTPUT);
-  //digitalWrite(LED1, LOW); // LED는 꺼진 상태로 시작
- // digitalWrite(LED2, LOW);
+
   
 }
  
@@ -82,8 +76,7 @@ void loop()
     char ch = BTserial.read();
    
     if(ch == 'A'){ // ‘A’를 수신한 경우 첫 번째 LED 반전
-      state2 = !state2;
-      digitalWrite(LED2, state2);
+      
     }
     /*else if(ch == 'B'){ // ‘B’를 수신한 경우 두 번째 LED 반전
       state2 = !state2;
